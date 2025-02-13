@@ -16,9 +16,9 @@ import io.flutter.plugin.common.MethodChannel;
 
 public class UniLinksPlugin
         implements FlutterPlugin,
-                MethodChannel.MethodCallHandler,
-                EventChannel.StreamHandler,
-                ActivityAware {
+        MethodChannel.MethodCallHandler,
+        EventChannel.StreamHandler,
+        ActivityAware {
 
     private static final String MESSAGES_CHANNEL = "uni_links/messages";
     private static final String EVENTS_CHANNEL = "uni_links/events";
